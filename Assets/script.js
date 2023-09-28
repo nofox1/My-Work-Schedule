@@ -34,7 +34,7 @@ function colorChange() {
 function saveButton(event) {
   event.preventDefault();
 
-  var clicked = $(event.currentTarget);
+  localStorage.setItem("");
 }
 
 function timeHeader() {
